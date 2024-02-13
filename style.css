@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --marrom: #8e2424;
+  --marrom-btn: #8e24240d;
+  --cinza: #667085;
+  --cinza-claro: #eaecf0;
+  --cinza-escuro: #101828;
+  --branco: #ffffff;
+  --fonte-principal: "Inter";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: var(--fonte-principal);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 5em;
+  font-weight: 500;
+}
+
+.nav-main {
+  display: flex;
+}
+
+.nav-corner {
+  display: flex;
+}
+
+.nav-link {
+  padding: 1em;
+  color: var(--cinza);
+}
+
+.nav-link:hover {
+  color: var(--marrom);
+}
+
+.btn {
+  color: var(--branco);
+  background-color: var(--marrom);
+  padding: 0.8em 1.5em;
+  border-radius: 10px;
+}
+
+.topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.5em;
+  margin: 5em 28em;
+}
+
+.topo_generico {
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--marrom);
+}
+
+.topo_titulo {
+  font-size: 3em;
+  font-weight: 600;
+  color: var(--cinza-escuro);
+}
+
+.topo_texto {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.metricas {
+  display: flex;
+  margin: 10em 6em;
+  gap: 4em;
+}
+
+.metricas_numeros {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--marrom);
+}
+
+.metricas_titulo {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cinza-escuro);
+}
+
+.metricas_texto {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.vagas-btn {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--marrom);
+  background-color: var(--marrom-btn);
+  border-radius: 1em;
+  padding: 4px 12px;
+}
+
+.vagas_titulo {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--cinza-escuro);
+}
+
+.vagas_texto {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.vagas_abertas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+.container_vaga {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  border: 1px solid var(--cinza-claro);
+  padding: 24px 24px 28px 24px;
+  border-radius: 1em;
+}
+
+.container_vaga_titulo {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cinza-escuro);
+}
+
+.titulo_vaga {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cinza-escuro);
+}
+
+.container_vaga_desc {
+  display: flex;
+  gap: 1.5em;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cinza);
+}
+
+.imagem_principal {
+  margin: 2em 0;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5em;
+  margin: 6em auto;
+  padding: 5em;
+  background-color: var(--marrom-btn);
+  width: 75%;
+}
+
+.depoimentos_span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--marrom);
+}
+
+.depoimentos_titulo {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--cinza-escuro);
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.imagem_avatar {
+  width: 56px;
+}
+
+.titulo_avatar {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cinza-escuro);
+}
+
+.texto_avatar {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.email_input {
+  padding: 0.8em 1.5em;
+  border-radius: 10px;
+  width: 360px;
+  border: 1px solid var(--cinza-claro);
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 96px 0;
+}
+
+.titulo_rodape {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--cinza-escuro);
+}
+
+.texto_rodape {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.cadastro {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.cadastro_btn {
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.creditos {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cinza);
+}
